@@ -28,13 +28,14 @@ This project involves techniques including but not limited:
 - MySQL and database related language
 - Shell
 I strongly suggest you at least have a basic understanding on these techniques above.  
+
 Before you begin, ensure you have met the following requirements:
 - You have a server machine or have access to ECS(Elastic Compute Service).
 - You have installed Vue.js on client/server machine, egg.js, MySQL and Nginx on server machine.
 
 ## Operating Environment
 It's only an example.
-Server: CentOS provided by Aliyun ECS
+Server: CentOS provided by Aliyun ECS  
 Client: macOS Mojave
 
 ## Installation
