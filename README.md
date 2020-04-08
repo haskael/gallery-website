@@ -34,4 +34,6 @@ Before you begin, ensure you have met the following requirements:
 The project is splited into three parts: back-end files, front-end files and data in the databases.
 
 ### Start with Front-end files
-Due to the dearth of max uploading files, I only kept the files in '/src/'. To reuse them, you shall put them into a vue project accordingly. Then you should build them. Then you shall change the configuration file of Nginx, usually found as '/usr/local/nginx/conf/nginx.conf'. When you have set right parameters of Nginx, put 'dist' folders into right place.
+Due to the dearth of max uploading files, I only kept the files in '/src/'. To reuse them, you shall put them into a vue project accordingly and build them. Afterwards, you shall put the outcomes in the dir where Nginx can correctly trace them as is descripted in the conf file.
+
+### Finish Back-end Part
