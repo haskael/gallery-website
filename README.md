@@ -14,8 +14,8 @@ A full stack project used to create, like, collect and edit albums.
 - Acknowledgement
 
 ## Background
-This project is my first full stack project, in an attempt to get access to some student community in which I believe I will be able to enhance myself. After finnishing this project, I did enlarged my technology stack and had a more comprehensive understanding of HTTP protocol, database and JavaScript. 
-**Warning**: This project only serve as an experimental project to elucidate how recent websites work. It is not safe to pass any sensitive material with it.
+This project is my first full stack project, in an attempt to get access to some student community in which I believe I will be able to enhance myself. After finnishing this project, I did enlarged my technology stack and had a more comprehensive understanding of HTTP protocol, database and JavaScript.  
+**Warning**: This project only serve as an experimental project to elucidate how recent websites work. It is **not safe** to pass any sensitive material with it.
 
 ## Prerequisites
 This project involves techniques including but not limited:
@@ -27,7 +27,7 @@ This project involves techniques including but not limited:
 - JavaScript
 - MySQL and database related language
 - Shell
-I strongly suggest you at least have a basic understanding on these techniques above.
+I strongly suggest you at least have a basic understanding on these techniques above.  
 Before you begin, ensure you have met the following requirements:
 - You have a server machine or have access to ECS(Elastic Compute Service).
 - You have installed Vue.js on client/server machine, egg.js, MySQL and Nginx on server machine.
@@ -51,7 +51,7 @@ You shall refer to the [Egg.js official page](https://eggjs.org/zh-cn/intro/quic
 This project builds a website of albums, or collections of photos. You can sign up, log in, check other's collections, like a collection, create one, change one, or simply delete it. (However these are quite simple and may still have bugs.)
 
 ## FAQ
-1. How can I tell when to use front-end proxy or back-end proxy?
+1. How can I tell when to use front-end proxy or back-end proxy?  
   If the website is running in your computer (both front-end and back-end), use forward proxy. Remove all the comments in [vue.config.js](/front-end/vue.config.js). If the website is running in your remote server, use backward proxy. Delete [vue.config.js](/front-end/vue.config.js), change every api interface and replacing all 'localhost' to server's ip address. See [here](https://www.jianshu.com/p/8fa2acd103ea) to get more information.
   
  ## Related Efforts
@@ -65,5 +65,5 @@ This project builds a website of albums, or collections of photos. You can sign 
  Feel free to contact me via reohargen@foxmail.com
  
  ## Acknowledgement
- Thanks for JMT's patience, care and support, without whom this project could not be finished.
+ Thanks for JMT's patience, care and support, without whom this project could not be finished.  
  Also I want to thanks for those who helped, Ding, Xu, Dong, saving a great deal of time for me.
