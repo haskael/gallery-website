@@ -45,14 +45,14 @@ Due to the dearth of max uploading files, I only kept the files in '/src/'. To r
 
 ### Finish Back-end Part
 To begin with, configuring Nginx well helps you deploy static resources of the website. See related configuration file:(/nginx.conf). You shall use backward proxy.
-You shall refer to the [Egg.js official page](https://eggjs.org/zh-cn/intro/quickstart.html) to start your part. Key codes have given in the dir '../back-end/app/'.
+You shall refer to the [Egg.js official page](https://eggjs.org/zh-cn/intro/quickstart.html) to start your part. Key codes have given in the dir (../back-end/app/).
 
 ## Usage
 This project builds a website of albums, or collections of photos. You can sign up, log in, check other's collections, like a collection, create one, change one, or simply delete it. (However these are quite simple and may still have bugs.)
 
 ## FAQ
 1. How can I tell when to use front-end proxy or back-end proxy?
-  If the website is running in your computer (both front-end and back-end), use forward proxy. Remove all the comments in [vue.config.js](/front-end/vue.config.js). If the website is running in your remote server, use backward proxy. Delete [vue.config.js](/front-end/vue.config.js), change every api interface and replacing all 'localhost' to server's ip address. See [here] (https://www.jianshu.com/p/8fa2acd103ea) to get more information.
+  If the website is running in your computer (both front-end and back-end), use forward proxy. Remove all the comments in [vue.config.js](/front-end/vue.config.js). If the website is running in your remote server, use backward proxy. Delete [vue.config.js](/front-end/vue.config.js), change every api interface and replacing all 'localhost' to server's ip address. See [here](https://www.jianshu.com/p/8fa2acd103ea) to get more information.
   
  ## Related Efforts
  * This [article](https://blog.csdn.net/zt15732625878/article/details/78941268)  explains more about proxy problem.
